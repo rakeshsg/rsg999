@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T04:11:01.865Z",
+        "line": 4,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3632300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 50 in calc",
+            "match": {
+              "location": "git1step.I_enter_50_in_calc()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2055700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press add",
+            "match": {
+              "location": "git1step.I_press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 867600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have entered 50 in calc",
+            "match": {
+              "location": "git1step.I_have_entered_50_in_calc1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 893200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Press add",
+            "match": {
+              "location": "git1step.press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1014100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "calc shows 100 in calc",
+            "match": {
+              "location": "git1step.calc_shows_100_in_calc()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": " This file describes calculator functionality",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:git1/git1.feature",
+    "tags": []
+  }
+]
